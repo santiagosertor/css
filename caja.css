@@ -1,0 +1,36 @@
+*{
+margin: 0px;
+padding: 0px;
+ box-sizing: border-box;
+}
+
+.caja{
+  width: 300px;
+  height: 150px;
+}
+
+.caja1{
+  background-color: steelblue;
+ padding: 10px 20px 30px 40px;
+ border: solid 5px green;
+ margin: 10px;
+ /*box-sizing: border-box;*/
+}
+body{
+  color: white; 
+}
+.caja2{
+  background-color: crimson;
+   padding: 10px 20px 30px 40px;
+ border: solid 5px rgb(29, 3, 228);
+ margin: 10px;
+ box-sizing: border-box;
+}
+
+.caja3{
+  background-color: blue;
+  padding: 40px;
+  margin: 40px;
+  color: white; 
+  /*display: block;*/
+}
