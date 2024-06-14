@@ -13,10 +13,11 @@
 }
 
 .spidy{
-  margin: 40px auto;
+  margin: 0px auto;
   place-content: center;
   display: block;
   width: 500px;
+
 }
 
 .texto1{
@@ -26,7 +27,7 @@
   background-color: white;
   place-content: center;
   text-align: center;
-  margin: 50px auto;
+  margin: 0px auto;
   border-radius: 10px;
   box-shadow: 5px 5px 20px #000;
 }
