@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+.header{
+  padding: 45px 0;
+  color: rgba(251, 18, 14, 0.828);
+  background: #000;
+  background: blue;
+  
+}
+
+.tilte{
+  text-align: center;
+}
+
+main > section#section> div.contenedor > div.img ,
+main > section#section> div.contenedor >div#img,
+section.section 
+{
+  background-image: url(yunan-wang-dYYLkTJsvo8-unsplash.jpg);
+  background-size: cover;
+
+}
+.img ,#img{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0px auto;
+text-align: center;
+
+}
+.attach{
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.section{
+  height: 250px;
+ text-align: center;
+}
+.titulo{
+  font-size: 32px;
+  margin-top: 250px;
+}
+
+p{
+  color: #000;
+  font-size: 30px;
+}
+main{
+  height: 300vh;
+}
+
