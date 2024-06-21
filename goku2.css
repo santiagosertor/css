@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(moto.png);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-position: center;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    background-color: #f4f4f4;
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card p {
+    padding: 0 20px 20px;
+    color: #666;
+    font-size: 16px;
+}
