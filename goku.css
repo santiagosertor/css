@@ -4,33 +4,35 @@
 
 .goku{
   margin: 40px auto;
-  place-content: center;
+  margin: 0 auto;
   display: block;
-  width: 500px;
+  width: 380px;
   margin: 100px auto;
   /*box-shadow: 10px 10px 60px 50px yellow;*/
- filter: drop-shadow(0px -50px 70px rgb(255, 213, 0));
+  filter: drop-shadow(0px -100px 70px yellow);
 }
 
 .spidy{
   margin: 0px auto;
   place-content: center;
   display: block;
-  width: 500px;
+  width: 380px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 10px 20px #000;
 
 
 }
 
 .texto1{
-  width: 500px;
+  width: 380px;
   height: 300px;
   font-size: 20px;
   background-color: white;
   place-content: center;
   text-align: center;
   margin: 0px auto;
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px #131212;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 15px 25px #131212;
 }
 
 .texto2{
@@ -41,26 +43,24 @@
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin: 10px;
+  margin: 10px 0px 20px 0;
 }
 
 .texto3{
-    display: block;
-  place-content: center;
   text-align: center;
   color: black;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin: 10px;
+  margin-top: 20px;
 }
-
 .button{
-   width: 200px;
-  height: 100px;
-  font-size: 32px;
+   width: 150px;
+  height: 70px;
+  font-size: 24px;
   color: white;
   background-color: red;
-  place-content: center;
+  margin: 0 auto;
   border-radius: 20px 20px;
+  margin-top: 30px;
 }
